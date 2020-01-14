@@ -11,7 +11,7 @@ let mainWindow;
 function createWindow() {
   mainWindow = new BrowserWindow({ width: 800, height: 600 });
 
-  // mainWindow.loadURL(`file://${path.join(__dirname, "../public/index.html")}`);
+  // mainWindow.loadURL(`file://${path.join(__dirname, "../build/index.html")}`);
   mainWindow.loadURL(
     isDev
       ? "http://localhost:3000"
